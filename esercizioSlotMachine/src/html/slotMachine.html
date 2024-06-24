@@ -1,0 +1,83 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Document</title>
+    <link rel="stylesheet" href="../css/slotMachine.css" />
+    <script src="../js/slotMachine.js" defer></script>
+  </head>
+  <body>
+    <section id="slot-machine">
+      <span class="border-animation1"></span>
+      <span class="border-animation2"></span>
+      <span class="border-animation3"></span>
+      <span class="border-animation4"></span>
+      <ul class="slot-machine--numbers">
+        <li class="slot-machine--numbers__number1">
+          <span>0</span>
+          <span>1</span>
+          <span>2</span>
+          <span>3</span>
+          <span>4</span>
+          <span>5</span>
+          <span>6</span>
+          <span>7</span>
+          <span>8</span>
+          <span>9</span>
+        </li>
+        <li class="slot-machine--numbers__number2">
+          <span>0</span>
+          <span>1</span>
+          <span>2</span>
+          <span>3</span>
+          <span>4</span>
+          <span>5</span>
+          <span>6</span>
+          <span>7</span>
+          <span>8</span>
+          <span>9</span>
+        </li>
+        <li class="slot-machine--numbers__number3">
+          <span>0</span>
+          <span>1</span>
+          <span>2</span>
+          <span>3</span>
+          <span>4</span>
+          <span>5</span>
+          <span>6</span>
+          <span>7</span>
+          <span>8</span>
+          <span>9</span>
+        </li>
+        <li class="slot-machine--numbers__number4">
+          <span>0</span>
+          <span>1</span>
+          <span>2</span>
+          <span>3</span>
+          <span>4</span>
+          <span>5</span>
+          <span>6</span>
+          <span>7</span>
+          <span>8</span>
+          <span>9</span>
+        </li>
+      </ul>
+    </section>
+
+    <div class="field">
+      <label for="giocata">Scegli un numero tra 0 e 9</label>
+      <input
+        type="number"
+        name="giocata"
+        id="giocata"
+        placeholder="Inserisci numero"
+      />
+      <small class="errore">Errore. Inserire un numero intero tra 0 e 9</small>
+    </div>
+
+    <button id="gioca">Gioca</button>
+
+    <div id="esito"></div>
+  </body>
+</html>
